@@ -21,7 +21,7 @@ class Hero
   end
 end
 
-hero = Hero.new 'Miles'
-puts hero.power_up
-puts hero.power_down
-puts hero.hero_info
+#hero = Hero.new 'miles'
+#puts hero.power_up
+#puts hero.power_down
+#puts hero.hero_info
