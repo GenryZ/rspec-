@@ -8,4 +8,8 @@ describe Hero do
     expect(hero.name).to eq 'Miles'
   end
 
+  it "can power up" do
+    hero = Hero.new 'miles'
+    expect(hero.power_up).to eq 110
+  end
 end
